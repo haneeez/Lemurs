@@ -1,0 +1,64 @@
+<JZML>
+<WINDOW class="Breakpoint" text="ADSR" x="0" y="0" width="555" height="247" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="0" kbmouse_target="-2" color="865343,1596013" coordinates="0" editable="0" free="0" grid="0" grid_steps="1,1" label="0" nbr="5" physic="1" zoom="1.000000">
+<PARAM name="x=" value="0.000000,0.250000,0.312500,0.750000,1.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/ADSR/x" midi_target="-1" midi_trigger="1" midi_message="0xB0,0xB0,104,108" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<PARAM name="y=" value="0.000000,1.000000,0.448899,0.448899,0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/ADSR/y" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<PARAM name="z=" value="0.000000,0.000000,0.000000,0.000000,0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/ADSR/z" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="edit=0" send="0" osc_target="0" osc_trigger="1" osc_message="/ADSR/edit" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="attraction=1" send="0" osc_target="0" osc_trigger="1" osc_message="/ADSR/attraction" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="friction=1" send="0" osc_target="0" osc_trigger="1" osc_message="/ADSR/friction" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="speed=1" send="0" osc_target="0" osc_trigger="1" osc_message="/ADSR/speed" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="rest=0.1" send="0" osc_target="0" osc_trigger="1" osc_message="/ADSR/rest" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="light={-1, 0, 0, -1, 0}" send="0" osc_target="0" osc_trigger="1" osc_message="/ADSR/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="holdX={1, 0, 0, 1, 0}" send="0" osc_target="0" osc_trigger="1" osc_message="/ADSR/holdX" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="holdY={1, 1, 0, 0, 1}" send="0" osc_target="0" osc_trigger="1" osc_message="/ADSR/holdY" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="D=" value="0.250000" send="17" osc_target="0" osc_trigger="1" osc_message="/ADSR/D" midi_target="-2" midi_trigger="1" midi_message="0xB0,0xB0,105,105" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="-208,12336,-208" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="A=" value="1.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/ADSR/A" midi_target="-2" midi_trigger="1" midi_message="0xB0,0xB0,104,104" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="S=" value="0.448899" send="17" osc_target="0" osc_trigger="1" osc_message="/ADSR/S" midi_target="-2" midi_trigger="1" midi_message="0xB0,0xB0,106,106" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="R=" value="1.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/ADSR/R" midi_target="-2" midi_trigger="1" midi_message="0xB0,0xB0,107,107" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="autoMoveSY()" script="y[3] = y[2];" trigger_script="x[2]" trigger_type="1" trigger="1" osc_message="/ADSR/autoMoveSY" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="autoMoveDX()" script="x[2] = x[1] + D/4;" trigger_script="x[1]" trigger_type="0" trigger="1" osc_message="/ADSR/autoMoveDX" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="calcD()" script="D = (x[2] - x[1])*4;" trigger_script="x[2]" trigger_type="0" trigger="1" osc_message="/ADSR/calcD" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="limitA()" script="if( x[1] > 0.25 )
+{
+	holdX[1] = 1;
+	x[1] = 0.25;
+}
+else
+{
+	holdX[1] = 0;
+}" trigger_script="x[1]" trigger_type="0" trigger="1" osc_message="/ADSR/limitA" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="init()" script="x[1] = 0.25;
+x[2] = x[1] + 0.25;
+x[3] = 0.75;
+A = x[1];
+D = x[2] - x[1];
+S = y[2];
+R = x[4]-x[3];" trigger_script="" trigger_type="5" trigger="1" osc_message="/ADSR/init" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="limitD()" script="if( x[2] > x[1] + 0.25 )
+{
+	holdX[2] = 1;
+	x[2] = x[1] + 0.25;
+}
+else
+{
+	holdX[2] = 0;
+}" trigger_script="x[2]" trigger_type="0" trigger="1" osc_message="/ADSR/limitD" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="calcA()" script="A = (x[1] - x[0])*4;
+" trigger_script="x[1]" trigger_type="0" trigger="1" osc_message="/ADSR/calcA" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="calcS()" script="S = y[2];" trigger_script="y[2]" trigger_type="0" trigger="1" osc_message="/ADSR/calcS" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="calcR()" script="R = (x[4] - x[3])*4;
+" trigger_script="x[4]" trigger_type="0" trigger="1" osc_message="/ADSR/calcR" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+</WINDOW>
+<WINDOW class="Monitor" text="A" x="30" y="176" width="110" height="60" id="1" state="245" group="0" font="tahoma,12,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="1596013" label="1" precision="0" unit="" value="1">
+<VARIABLE name="value=ADSR.A*127" send="0" osc_target="0" osc_trigger="1" osc_message="/A/value" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+</WINDOW>
+<WINDOW class="Monitor" text="D" x="171" y="176" width="110" height="60" id="2" state="245" group="0" font="tahoma,12,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="1596013" label="1" precision="0" unit="" value="1">
+<VARIABLE name="value=ADSR.D*127" send="0" osc_target="0" osc_trigger="1" osc_message="/D/value" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+</WINDOW>
+<WINDOW class="Monitor" text="S" x="312" y="176" width="110" height="60" id="3" state="245" group="0" font="tahoma,12,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="1596013" label="1" precision="0" unit="" value="1">
+<VARIABLE name="value=ADSR.S*127" send="0" osc_target="0" osc_trigger="1" osc_message="/S/value" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+</WINDOW>
+<WINDOW class="Monitor" text="R" x="454" y="176" width="110" height="60" id="4" state="245" group="0" font="tahoma,12,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="1596013" label="1" precision="0" unit="" value="1">
+<VARIABLE name="value=ADSR.R*127" send="0" osc_target="0" osc_trigger="1" osc_message="/R/value" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+</WINDOW>
+</JZML>
